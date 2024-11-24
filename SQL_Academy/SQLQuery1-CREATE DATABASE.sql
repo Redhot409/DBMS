@@ -1,0 +1,18 @@
+--SQL_ACADEMY
+CREATE DATABASE SQL_ACADEM
+ON -- Определяем свойства файла Базы Данных
+(
+	NAME = SQL_ACADEM,
+	FILENAME = 'D:\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\SQL_ACADEM.mdf',
+	SIZE = 8 MB,
+	MAXSIZE = 500 MB,
+	FILEGROWTH = 8 MB
+)
+LOG ON -- Свойства файла журнала транзакций
+(
+	NAME = SQL_ACADEM_Log,
+	FILENAME = 'D:\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\SQL_ACADEM_Log.ldf',
+	SIZE = 8 MB,
+	MAXSIZE = 500 MB,
+	FILEGROWTH = 8 MB
+)
