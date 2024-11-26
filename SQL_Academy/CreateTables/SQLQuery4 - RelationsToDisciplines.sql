@@ -1,4 +1,4 @@
-USE SQL_ACADEM;
+USE SQL_ACADEMY
 GO
 --PJT - Pure Joint Table
 CREATE TABLE TeacherDisciplinesRelation
