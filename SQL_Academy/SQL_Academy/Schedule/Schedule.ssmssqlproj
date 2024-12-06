@@ -28,11 +28,41 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery0 - Alter Groups.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
+        <FileNode Name="SQLQuery0 - Check procedures.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>SQLQuery0 - Check procedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1 - INSERT Stationar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1 - INSERT Stationar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - SELECT FROM Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - SELECT FROM Schedule.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3 - CREATE PROCEDURE -Schedule for Group.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3 - CREATE PROCEDURE -Schedule for Group.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4 - DELETE FROM Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4 - DELETE FROM Schedule.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5 - StacionarToSchedule Procedure .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5 - StacionarToSchedule Procedure .sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

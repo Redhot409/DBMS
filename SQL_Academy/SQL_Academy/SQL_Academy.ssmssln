@@ -11,6 +11,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TeachersAndDisciplines", "T
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Schedule", "Schedule\Schedule.ssmssqlproj", "{DF91D207-FBE5-48B2-AE62-C0305791F97E}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions", "Functions\Functions.ssmssqlproj", "{06798EE2-617F-4B71-A0A1-E3645A898762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -18,9 +20,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7061F0AA-83B3-42E0-B747-13B210AF0FEF}.Default|Default.ActiveCfg = Default
 		{9DE3C962-ACAD-4B1F-8F80-785F95A8B664}.Default|Default.ActiveCfg = Default
-		{47C5E274-3067-41FE-826F-74B5BDC89108}.Default|Default.ActiveCfg = Default
 		{DCC4F6E7-A86C-42C6-874E-421E5E43FDFC}.Default|Default.ActiveCfg = Default
 		{DF91D207-FBE5-48B2-AE62-C0305791F97E}.Default|Default.ActiveCfg = Default
+		{A9C4E6EC-92E4-4311-887D-73FA2134FBC8}.Default|Default.ActiveCfg = Default
+		{06798EE2-617F-4B71-A0A1-E3645A898762}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

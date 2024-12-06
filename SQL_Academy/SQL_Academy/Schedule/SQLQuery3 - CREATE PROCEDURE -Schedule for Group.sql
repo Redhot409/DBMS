@@ -1,8 +1,16 @@
 USE PD_318_DML;
 GO
 
+ALTER PROCEDURE sp_ScheduleForGroup
+		@group_name				NVARCHAR(16),
+		@discipline_name		NVARCHAR(150)
+AS
+BEGIN
+		DECLARE @group			AS	INT=(SELECT group_id FROM Groups WHERE group_name = @group_name);
+		DECLARE @discipline		AS	SMALLINT=(SELECT discipline_id FROM Disciplines WHERE discipline_name LIKE @discipline_name);
 SELECT
 			[Дата]			=[date],
+			[День недели]	=DATENAME(WEEKDAY, [date]),
 			[Время]			=[time],
 			[Группа]		=group_name,
 			[Дисциплина]	=discipline_name,
@@ -13,7 +21,7 @@ FROM		Schedule,Groups,Disciplines,Teachers
 WHERE		[group]			= group_id
 AND			discipline		= discipline_id
 AND			teacher			= teacher_id
-AND			[date]			= '2024-10-25'
+AND			[group]			=@group
+AND			[discipline]	=@discipline
 ;
-
---EXEC sp_ScheduleForGroup 'PV_318', '%MS SQL Server'
+END
