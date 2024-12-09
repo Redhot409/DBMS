@@ -22,17 +22,53 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="SQLQuery0 - Check Functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery0 - Check Functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery0 - CheckHolidays.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery0 - CheckHolidays.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1 - Count lessons for group.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - Count lessons for group.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery10 - Check Functions.sql">
+        <FileNode Name="SQLQuery8 - GetLastMonOfApril.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery10 - Check Functions.sql</FullPath>
+          <FullPath>SQLQuery8 - GetLastMonOfApril.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery8 - GetLastMonOfJuly.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery8 - GetLastMonOfJuly.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery8 - GetLastMonOfYear.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery8 - GetLastMonOfYear.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery8 - MayHolidays PROCEDURE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery8 - MayHolidays PROCEDURE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery8 - NewYearDays PROCEDURE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZZZAAA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZZZAAA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery8 - NewYearDays PROCEDURE.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
