@@ -1,11 +1,16 @@
 USE PD_318_DML;
 GO
+--DELETE FROM DaysOFF WHERE [date] BETWEEN N'2024-02-20' AND N'2024-03-15';
 
 SET DATEFIRST 1;
 --DELETE FROM DaysOFF;
 
-EXEC sp_NewYearDaysFor 2024;
-EXEC sp_MayHoliDaysFor 2024;
+--EXEC sp_NewYearDaysFor 2024;
+--EXEC sp_MayHoliDaysFor 2024;
+--EXEC sp_SummerHolidaysFor 2024;
+
+EXEC sp_SetDaysOffFor 2025;
+
 SELECT 
 		[date],
 		DATENAME(WEEKDAY, [date]),

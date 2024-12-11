@@ -7,3 +7,4 @@ CREATE Table DaysOFF
 	[date]			DATE NOT NULL,
 	holiday			SMALLINT	CONSTRAINT FK_DaysOFF_Holidays FOREIGN KEY REFERENCES Holidays(holiday_id)
 );
+GO
