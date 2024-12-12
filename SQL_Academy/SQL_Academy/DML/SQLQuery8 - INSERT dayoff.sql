@@ -3,7 +3,7 @@ GO
 
 SET DATEFIRST 1;
 
-EXEC sp_NewYearDays 2024;
+EXEC sp_NewYearDaysFor 2024;
 
 --INSERT
 		--DaysOFF([date], holiday)

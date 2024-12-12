@@ -1,7 +1,7 @@
 USE PD_318_DML;
 GO
 
-CREATE FUNCTION GetLastMonOfYear
+ALTER FUNCTION GetLastMonOfYear
 (
 	@year AS INT
 )

@@ -1,7 +1,7 @@
 USE PD_318_DML;
 GO
 
-CREATE FUNCTION GetLastMonOfJuly
+ALTER FUNCTION GetLastMonOfJuly
 (
 	@year	AS INT
 )
